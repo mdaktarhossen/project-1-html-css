@@ -6,10 +6,15 @@
 
 }
 
+header {
+  background-color: #FFF8F3;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
 }
 
 nav>ul {
@@ -52,4 +57,16 @@ nav a {
   height: 27px;
   font-weight: bold;
   font-size: 20px;
+}
+
+/* navbar done */
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+}
+
+.banner img {
+  width: 500px;
+  height: 600px;
 }
